@@ -10,4 +10,4 @@ spring:
     stream:
       bindings:
         output:
-          destination=source
+          destination=source-exchange
