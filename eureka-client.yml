@@ -2,12 +2,12 @@ server:
   port: 8002
 spring:
   rabbitmq:
-    host:localhost
-    port:5672
-    username:guest
-    password:guest
+      host:localhost
+      port:5672
+      username:guest
+      password:guest
   cloud:
     stream:
       bindings:
         output:
-          destination:source-exchange
+            destination:source-exchange
