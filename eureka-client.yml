@@ -2,7 +2,7 @@ server:
   port: 8002
 rabbitmq:
   host:172.21.1.111
-  port:5672
+  port:5671
   username:guest
   password:guest
 cloud:
