@@ -10,8 +10,3 @@ cloud:
     bindings:
       input:
         destination: source
-     rabbit:
-        bindings:
-          output:
-            producer:
-              exchangeDurable: false
