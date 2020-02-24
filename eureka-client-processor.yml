@@ -9,6 +9,6 @@ cloud:
   stream:
     bindings:
       input:
-        destination: source
-      output:
         destination: processor
+      output:
+        destination: source
