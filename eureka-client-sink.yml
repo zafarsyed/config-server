@@ -8,6 +8,6 @@ rabbitmq:
 cloud:
   stream:
     bindings:
-      output:
+      input:
         destination: source
         
