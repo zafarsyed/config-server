@@ -9,4 +9,4 @@ cloud:
   stream:
     bindings:
       input:
-        destination=source
+        destination=processor
