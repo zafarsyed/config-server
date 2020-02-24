@@ -9,4 +9,4 @@ cloud:
   stream:
     bindings:
       output:
-        destination: source
+        destination = source
