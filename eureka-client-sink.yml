@@ -5,3 +5,11 @@ rabbitmq:
   port: 5672
   username: guest
   password: guest
+cloud:
+  stream:
+    bindings:
+      input:
+        destination: source
+      output:
+        destination: processor
+        
