@@ -1,7 +1,7 @@
 server:
   port: 8002
 rabbitmq:
-  host:172.21.1.111
+  host:localhost
   port:5672
   username:guest
   password:guest
